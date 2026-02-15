@@ -9,7 +9,7 @@ export default function Home() {
           src="/Monkey2.jpg"
           alt="Next.js logo"
           width={200}
-          height={150}
+          height={300}
           priority
         />
         <div className="flex flex-row items-center gap-9 text-center sm:items-start sm:text-left">
@@ -53,9 +53,11 @@ export default function Home() {
           <div>
             <div>
               <article>
-              <div className="text-white"></div> 
               <img className="float-left text-white border-4 border-sky-500 border-dashed" src="/PSI logo2026.jpg" />
-              <p>Cisco Call Manager</p>
+              <p className="text-white">
+                Cisco Call Manager
+
+              </p>
               </article>
             </div>
           <div>
